@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>数模备赛</title>
+      <link href="/2024/09/17/%E6%95%B0%E6%A8%A1%E5%A4%87%E8%B5%9B/"/>
+      <url>/2024/09/17/%E6%95%B0%E6%A8%A1%E5%A4%87%E8%B5%9B/</url>
+      
+        <content type="html"><![CDATA[<h1 id="一、数学建模初识"><a href="#一、数学建模初识" class="headerlink" title="一、数学建模初识"></a>一、数学建模初识</h1><h2 id="1-数学建模基础"><a href="#1-数学建模基础" class="headerlink" title="1. 数学建模基础"></a>1. 数学建模基础</h2><ol><li>本质：模型简历与求解（掌握算法及其应用场景）、论文呈现（配图与排版）</li><li>常见题型<ol><li>机理分析</li><li>优化类</li><li>评价类</li><li>数理统计模型（主要为预测类）<blockquote><p>新手推荐预测类和评价类</p></blockquote></li></ol></li><li>评奖标准（详见ppt）<blockquote><p>假设合理性、建模创造性、结果正确性、表述清晰性</p></blockquote><ol><li>摘要</li><li>问题分析（多加流程图）</li><li>模型建立与求解：必须有结果、图尽量多且高大上、模型对比</li><li>公式融入业务名词</li></ol></li><li>组队与分工<ul><li>建模、编程、论文</li></ul></li></ol><h2 id="2-SPSSPRO"><a href="#2-SPSSPRO" class="headerlink" title="2. SPSSPRO"></a>2. SPSSPRO</h2><ol><li>可使用自定义算法diy数据处理&#x2F;分析</li><li>可使用帮助中心快速上手</li><li>客户端可以使用notebook，很便捷<blockquote><p>包括数据处理、数据分析、绘图等功能</p></blockquote></li></ol><h2 id="3-Python"><a href="#3-Python" class="headerlink" title="3. Python"></a>3. Python</h2><ol><li>pandas<table><thead><tr><th>方法</th><th>结果</th></tr></thead><tbody><tr><td>dtypes</td><td>类型</td></tr><tr><td>head&#x2F;tail(n&#x3D;2)</td><td>首尾</td></tr><tr><td>shape</td><td>大小（行列）</td></tr><tr><td>index</td><td>索引</td></tr><tr><td>columns</td><td>列名</td></tr><tr><td>df[‘列名’]  df[[‘’,’’]]</td><td>某&#x2F;多列值</td></tr><tr><td>describe</td><td>数据统计分析摘要</td></tr><tr><td>info</td><td>数据简明摘要</td></tr><tr><td>df.to_numpy</td><td>DataFrameToNumpy</td></tr><tr><td>T</td><td>转置</td></tr></tbody></table></li></ol><p>| df.sort_values(by&#x3D;’’)                       | (从小到大)某列排序                                                |<br>| df.sort_values(by&#x3D;’’,ascending&#x3D;False)       | 从大到小                                                          |<br>| df[‘’].nuique                               | 查空值数据数量                                                    |<br>| df[‘’].value_counts                         | 某列值统计数据                                                    |<br>| sum,mean                                    |                                                                   |<br>| df[df[‘’]&gt;10],df[df[‘’].str.startswith(‘’)] | 筛选                                                              |<br>| df.iloc[20:26,0:2]                          | <strong>切片</strong> 左闭右开(20-25行,0-1列) 如果以0开头，可以省略 负数为倒数 |<br>| df.loc[df[‘’].isin([‘’,’’]),[‘’,’’]]        | 多重筛选                                                          |<br>| df.groupby(‘’).mean()                       | 分组平均                                                          |</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常心得 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数模 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>南京市地铁信息查询系统-使用说明</title>
       <link href="/2024/01/02/%E5%8D%97%E4%BA%AC%E5%B8%82%E5%9C%B0%E9%93%81%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2%E7%B3%BB%E7%BB%9F-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/"/>
       <url>/2024/01/02/%E5%8D%97%E4%BA%AC%E5%B8%82%E5%9C%B0%E9%93%81%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2%E7%B3%BB%E7%BB%9F-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/</url>
@@ -383,7 +408,7 @@
       <link href="/2023/11/15/Road_Damages_Detection01/"/>
       <url>/2023/11/15/Road_Damages_Detection01/</url>
       
-        <content type="html"><![CDATA[<h1 id="Road-Damages-Detection01"><a href="#Road-Damages-Detection01" class="headerlink" title="Road_Damages_Detection01"></a>Road_Damages_Detection01</h1><h2 id="一、研究数据"><a href="#一、研究数据" class="headerlink" title="一、研究数据"></a>一、研究数据</h2><ol><li>相机：图片数据</li><li>三维激光扫描：三维道路图片数据</li><li>三维探地雷达采集的雷达图谱多视图数据（最新，浙大毕设）</li></ol><h2 id="二、实现算法"><a href="#二、实现算法" class="headerlink" title="二、实现算法"></a>二、实现算法</h2><blockquote><p>主要分为基于传统图像技术和基于深度学习（先进且主流）</p></blockquote><h3 id="深度学习算法："><a href="#深度学习算法：" class="headerlink" title="深度学习算法："></a>深度学习算法：</h3><h4 id="1-RCNN-系列算法"><a href="#1-RCNN-系列算法" class="headerlink" title="1.RCNN 系列算法"></a>1.RCNN 系列算法</h4><h4 id="2-SSD-算法"><a href="#2-SSD-算法" class="headerlink" title="2.SSD 算法"></a>2.SSD 算法</h4><h4 id="3-YOLO-系列"><a href="#3-YOLO-系列" class="headerlink" title="3.YOLO 系列"></a>3.YOLO 系列</h4><ol><li>YOLOv1-v5</li><li><strong>YOLOv8</strong>(最新)</li></ol><h2 id="三、思路"><a href="#三、思路" class="headerlink" title="三、思路"></a>三、思路</h2><ol><li><strong>优化道路病害检测模型</strong>:<ol><li>提升模型效率与精度(召回率与准确率)</li><li>数据增强和对抗训练：使用数据增强技术来扩充训练集，以增加模型的泛化能力；对抗训练以提高模型对于噪声和干扰的鲁棒性。</li><li>迁移学习和自适应学习：考虑在不同道路和环境条件下的道路病害监测，利用迁移学习或自适应学习方法，使得模型在不同场景下都能取得好的性能。</li><li>针对某一种病害，特化检测模型，提高对该类病害检测的准确性</li></ol></li><li><strong>综合多模态数据</strong>： 整合多种数据来源，如<code>图像、激光雷达</code>等，以提高道路病害监测的准确性,由此构建新的模型结构或者特征融合的方法。<ul><li>需要获取<code>雷达点云数据</code></li><li>硬件性能？</li></ul></li><li><strong>实时监测和预测</strong>： 着重于开发实时监测和预测系统，使得病害可以在早期阶段被检测到，以便采取及时的维修措施，关注实时性能与模型轻量化。<ul><li>道路<code>高清监控摄像头数据</code>获取，<code>精度</code>是否足够？</li><li>覆盖范围不足</li></ul></li><li><strong>时空分布模式探究与趋势预测</strong><ol><li>分析析道路病害在不同季节、天气条件下的时空分布模式。</li><li>使用时间序列分析方法，建模道路病害的时序变化，预测未来病害的发生趋势。</li><li>空间相关性分析：探究道路病害在空间上的分布规律，使用空间统计方法来识别病害的集聚区域或者热点区域。</li></ol><ul><li>需要<code>时空连续数据</code> -&gt; 谷歌街景影像数据 </li><li>问题：存在环境、施工的干扰</li></ul></li><li><strong>开发完整的可视化GIS系统</strong>：通过可视化方法展示地理定位，病害影像等监测结果，便于交通道路管理部门清晰了解监测结果，科学规划道路养护工作；可融合病害统计、热点统计等空间分析功能。<ul><li><code>数据较易获取</code></li></ul></li></ol>]]></content>
+        <content type="html"><![CDATA[<h1 id="Intelligent-Road-Defects-Detection01"><a href="#Intelligent-Road-Defects-Detection01" class="headerlink" title="Intelligent Road Defects Detection01"></a>Intelligent Road Defects Detection01</h1><h2 id="一、研究数据"><a href="#一、研究数据" class="headerlink" title="一、研究数据"></a>一、研究数据</h2><ol><li>相机：图片数据</li><li>三维激光扫描：三维道路图片数据</li><li>三维探地雷达采集的雷达图谱多视图数据（最新，浙大毕设）</li></ol><h2 id="二、实现算法"><a href="#二、实现算法" class="headerlink" title="二、实现算法"></a>二、实现算法</h2><blockquote><p>主要分为基于传统图像技术和基于深度学习（先进且主流）</p></blockquote><h3 id="深度学习算法："><a href="#深度学习算法：" class="headerlink" title="深度学习算法："></a>深度学习算法：</h3><h4 id="1-RCNN-系列算法"><a href="#1-RCNN-系列算法" class="headerlink" title="1.RCNN 系列算法"></a>1.RCNN 系列算法</h4><h4 id="2-SSD-算法"><a href="#2-SSD-算法" class="headerlink" title="2.SSD 算法"></a>2.SSD 算法</h4><h4 id="3-YOLO-系列"><a href="#3-YOLO-系列" class="headerlink" title="3.YOLO 系列"></a>3.YOLO 系列</h4><ol><li>YOLOv1-v5</li><li><strong>YOLOv8</strong>(最新)</li></ol><h2 id="三、思路"><a href="#三、思路" class="headerlink" title="三、思路"></a>三、思路</h2><ol><li><strong>优化道路病害检测模型</strong>:<ol><li>提升模型效率与精度(召回率与准确率)</li><li>数据增强和对抗训练：使用数据增强技术来扩充训练集，以增加模型的泛化能力；对抗训练以提高模型对于噪声和干扰的鲁棒性。</li><li>迁移学习和自适应学习：考虑在不同道路和环境条件下的道路病害监测，利用迁移学习或自适应学习方法，使得模型在不同场景下都能取得好的性能。</li><li>针对某一种病害，特化检测模型，提高对该类病害检测的准确性</li></ol></li><li><strong>综合多模态数据</strong>： 整合多种数据来源，如<code>图像、激光雷达</code>等，以提高道路病害监测的准确性,由此构建新的模型结构或者特征融合的方法。<ul><li>需要获取<code>雷达点云数据</code></li><li>硬件性能？</li></ul></li><li><strong>实时监测和预测</strong>： 着重于开发实时监测和预测系统，使得病害可以在早期阶段被检测到，以便采取及时的维修措施，关注实时性能与模型轻量化。<ul><li>道路<code>高清监控摄像头数据</code>获取，<code>精度</code>是否足够？</li><li>覆盖范围不足</li></ul></li><li><strong>时空分布模式探究与趋势预测</strong><ol><li>分析析道路病害在不同季节、天气条件下的时空分布模式。</li><li>使用时间序列分析方法，建模道路病害的时序变化，预测未来病害的发生趋势。</li><li>空间相关性分析：探究道路病害在空间上的分布规律，使用空间统计方法来识别病害的集聚区域或者热点区域。</li></ol><ul><li>需要<code>时空连续数据</code> -&gt; 谷歌街景影像数据 </li><li>问题：存在环境、施工的干扰</li></ul></li><li><strong>开发完整的可视化GIS系统</strong>：通过可视化方法展示地理定位，病害影像等监测结果，便于交通道路管理部门清晰了解监测结果，科学规划道路养护工作；可融合病害统计、热点统计等空间分析功能。<ul><li><code>数据较易获取</code></li></ul></li></ol>]]></content>
       
       
       <categories>

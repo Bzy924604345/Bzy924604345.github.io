@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://bzy924604345.github.io/2024/09/17/%E6%95%B0%E6%A8%A1%E5%A4%87%E8%B5%9B/</loc>
+    
+    <lastmod>2024-09-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bzy924604345.github.io/2023/11/15/Road_Damages_Detection01/</loc>
+    
+    <lastmod>2024-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://bzy924604345.github.io/2024/01/02/%E5%8D%97%E4%BA%AC%E5%B8%82%E5%9C%B0%E9%93%81%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2%E7%B3%BB%E7%BB%9F-%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/</loc>
     
     <lastmod>2024-01-02</lastmod>
@@ -104,15 +122,6 @@
     <loc>https://bzy924604345.github.io/2023/11/30/JS%E5%9F%BA%E7%A1%8001/</loc>
     
     <lastmod>2023-12-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://bzy924604345.github.io/2023/11/15/Road_Damages_Detection01/</loc>
-    
-    <lastmod>2023-11-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -427,7 +436,7 @@
 
   <url>
     <loc>https://bzy924604345.github.io/</loc>
-    <lastmod>2024-01-02</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -435,84 +444,91 @@
   
   <url>
     <loc>https://bzy924604345.github.io/tags/CSS/</loc>
-    <lastmod>2024-01-02</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://bzy924604345.github.io/tags/C/</loc>
-    <lastmod>2024-01-02</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://bzy924604345.github.io/tags/HTML/</loc>
-    <lastmod>2024-01-02</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://bzy924604345.github.io/tags/JavaScript/</loc>
-    <lastmod>2024-01-02</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://bzy924604345.github.io/tags/Road-Damages/</loc>
-    <lastmod>2024-01-02</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://bzy924604345.github.io/tags/HTML-CSS/</loc>
-    <lastmod>2024-01-02</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://bzy924604345.github.io/tags/GeoServer/</loc>
-    <lastmod>2024-01-02</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://bzy924604345.github.io/tags/keplergl/</loc>
-    <lastmod>2024-01-02</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://bzy924604345.github.io/tags/%E5%8D%97%E4%BA%AC%E5%B8%82%E5%9C%B0%E9%93%81%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2%E7%B3%BB%E7%BB%9F/</loc>
-    <lastmod>2024-01-02</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://bzy924604345.github.io/tags/%E5%9D%90%E6%A0%87%E8%BD%AC%E6%8D%A2/</loc>
-    <lastmod>2024-01-02</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://bzy924604345.github.io/tags/%E7%88%AC%E8%99%AB/</loc>
-    <lastmod>2024-01-02</lastmod>
+    <loc>https://bzy924604345.github.io/tags/%E6%95%B0%E6%A8%A1/</loc>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://bzy924604345.github.io/tags/%E9%81%A5%E6%84%9F/</loc>
-    <lastmod>2024-01-02</lastmod>
+    <lastmod>2024-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://bzy924604345.github.io/tags/%E7%88%AC%E8%99%AB/</loc>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -521,42 +537,42 @@
   
   <url>
     <loc>https://bzy924604345.github.io/categories/WebGIS-Study/</loc>
-    <lastmod>2024-01-02</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://bzy924604345.github.io/categories/Learn-C/</loc>
-    <lastmod>2024-01-02</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://bzy924604345.github.io/categories/Graduation-Design/</loc>
-    <lastmod>2024-01-02</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://bzy924604345.github.io/categories/%E6%97%A5%E5%B8%B8%E5%BF%83%E5%BE%97/</loc>
-    <lastmod>2024-01-02</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://bzy924604345.github.io/categories/%E5%9C%B0%E5%9B%BE%E8%AE%BE%E8%AE%A1/</loc>
-    <lastmod>2024-01-02</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://bzy924604345.github.io/categories/WebGIS%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2024-01-02</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
